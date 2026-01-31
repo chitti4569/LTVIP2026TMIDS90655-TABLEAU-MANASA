@@ -1,0 +1,3272 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.25.1210.1815                               -->
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Indian Union Budget FY 21-22 ti (source file)' inline='true' name='federated.0zplug2171mn6z1ahg55a0n5pivl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='source file' name='excel-direct.0xg6smz0onlpox1ed0lnz0qpnmmn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Tableau project/source file.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0xg6smz0onlpox1ed0lnz0qpnmmn' name='Indian Union Budget FY 21-22 ti' table='[&apos;Indian Union Budget FY 21-22 ti$&apos;]' type='table'>
+          <columns gridOrigin='A1:P723:no:A1:P723:0' header='yes' outcome='2'>
+            <column datatype='string' name='Category' ordinal='0' />
+            <column datatype='integer' name='Sl.No.' ordinal='1' />
+            <column datatype='string' name='Ministry/Department' ordinal='2' />
+            <column datatype='string' name='Scheme' ordinal='3' />
+            <column datatype='real' name='Actuals 2021-2022 Revenue' ordinal='4' />
+            <column datatype='real' name='Actuals 2021-2022 Capital' ordinal='5' />
+            <column datatype='real' name='Actuals 2021-2022 Total' ordinal='6' />
+            <column datatype='string' name='Budget Estimates 2022-2023 Revenue' ordinal='7' />
+            <column datatype='real' name='Budget Estimates 2022-2023 Capital' ordinal='8' />
+            <column datatype='real' name='Budget Estimates 2022-2023 Total' ordinal='9' />
+            <column datatype='real' name='Revised Estimates2022-2023 Revenue' ordinal='10' />
+            <column datatype='real' name='Revised Estimates 2022-2023 Revenue' ordinal='11' />
+            <column datatype='real' name='Revised Estimates2022-2023 Total' ordinal='12' />
+            <column datatype='real' name='Budget Estimates2023-2024 Revenue' ordinal='13' />
+            <column datatype='real' name='Budget Estimates2023-2024 Capital' ordinal='14' />
+            <column datatype='real' name='Budget Estimates2023-2024 Total' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P723:no:A1:P723:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sl.No.</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sl.No.]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Sl.No.</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ministry/Department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ministry/Department]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Ministry/Department</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scheme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Scheme]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Scheme</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actuals 2021-2022 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actuals 2021-2022 Revenue]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Actuals 2021-2022 Revenue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actuals 2021-2022 Capital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actuals 2021-2022 Capital]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Actuals 2021-2022 Capital</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actuals 2021-2022 Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actuals 2021-2022 Total]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Actuals 2021-2022 Total</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget Estimates 2022-2023 Revenue</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Budget Estimates 2022-2023 Revenue]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Budget Estimates 2022-2023 Revenue</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget Estimates 2022-2023 Capital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Budget Estimates 2022-2023 Capital]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Budget Estimates 2022-2023 Capital</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget Estimates 2022-2023 Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Budget Estimates 2022-2023 Total]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Budget Estimates 2022-2023 Total</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revised Estimates2022-2023 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revised Estimates2022-2023 Revenue]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Revised Estimates2022-2023 Revenue</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revised Estimates 2022-2023 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revised Estimates 2022-2023 Revenue]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Revised Estimates 2022-2023 Revenue</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revised Estimates2022-2023 Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revised Estimates2022-2023 Total]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Revised Estimates2022-2023 Total</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget Estimates2023-2024 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Budget Estimates2023-2024 Revenue]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Budget Estimates2023-2024 Revenue</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget Estimates2023-2024 Capital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Budget Estimates2023-2024 Capital]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Budget Estimates2023-2024 Capital</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget Estimates2023-2024 Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Budget Estimates2023-2024 Total]</local-name>
+            <parent-name>[Indian Union Budget FY 21-22 ti]</parent-name>
+            <remote-alias>Budget Estimates2023-2024 Total</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Actuals 2021-2022 Capital]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Actuals 2021-2022 Revenue]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Actuals 2021-2022 Total]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Budget Estimates 2022-2023 Capital]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Budget Estimates 2022-2023 Revenue]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Budget Estimates 2022-2023 Total]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Budget Estimates2023-2024 Capital]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Budget Estimates2023-2024 Revenue]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Budget Estimates2023-2024 Total]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='S_2023-2024' datatype='integer' name='[Calculation_0857377550446592]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='2023-2024' />
+        <aliases>
+          <alias key='-1' value='4' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' caption='2022-2023' datatype='integer' name='[Calculation_0857377553784833]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='2022-2023' />
+      </column>
+      <column aggregation='Sum' caption='2023-2024' datatype='integer' name='[Calculation_0857377554059266]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='2023-2024' />
+        <aliases>
+          <alias key='-1' value='4' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' caption='S_2022-2023' datatype='integer' name='[Calculation_1357380599246849]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[Calculation_0857377550446592]' />
+        <aliases>
+          <alias key='-1' value='food' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Ministry/Department]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Revised Estimates 2022-2023 Revenue]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Revised Estimates2022-2023 Revenue]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Revised Estimates2022-2023 Total]' role='measure' type='quantitative' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Scheme]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Sl.No.]' role='measure' type='quantitative' />
+      <column caption='Indian Union Budget FY 21-22 ti' datatype='table' name='[__tableau_internal_object_id__].[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Budget Estimates 2022-2023 Revenue]' derivation='None' name='[none:Budget Estimates 2022-2023 Revenue:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_0857377553784833]' derivation='None' name='[none:Calculation_0857377553784833:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_0857377554059266]' derivation='None' name='[none:Calculation_0857377554059266:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Ministry/Department]' derivation='None' name='[none:Ministry/Department:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Actuals 2021-2022 Capital]' derivation='Sum' name='[sum:Actuals 2021-2022 Capital:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Actuals 2021-2022 Revenue]' derivation='Sum' name='[sum:Actuals 2021-2022 Revenue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Actuals 2021-2022 Total]' derivation='Sum' name='[sum:Actuals 2021-2022 Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Budget Estimates 2022-2023 Capital]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Capital:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Budget Estimates 2022-2023 Total]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Budget Estimates2023-2024 Capital]' derivation='Sum' name='[sum:Budget Estimates2023-2024 Capital:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Budget Estimates2023-2024 Revenue]' derivation='Sum' name='[sum:Budget Estimates2023-2024 Revenue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Budget Estimates2023-2024 Total]' derivation='Sum' name='[sum:Budget Estimates2023-2024 Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_0857377550446592]' derivation='Sum' name='[sum:Calculation_0857377550446592:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Revised Estimates 2022-2023 Revenue]' derivation='Sum' name='[sum:Revised Estimates 2022-2023 Revenue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Revised Estimates2022-2023 Revenue]' derivation='Sum' name='[sum:Revised Estimates2022-2023 Revenue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Revised Estimates2022-2023 Total]' derivation='Sum' name='[sum:Revised Estimates2022-2023 Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sl.No.]' derivation='Sum' name='[sum:Sl.No.:qk]' pivot='key' type='quantitative' />
+      <group caption='Category Set' name='[Category Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+          <groupfilter direction='DESC' expression='SUM([Actuals 2021-2022 Total])' function='order' user:ui-marker='order'>
+            <groupfilter function='level-members' level='[Category]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (2022-2023,2023-2024,Budget Estimates 2022-2023 Revenue)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Calculation_0857377553784833:ok]' />
+          <groupfilter function='level-members' level='[none:Calculation_0857377554059266:ok]' />
+          <groupfilter function='level-members' level='[none:Budget Estimates 2022-2023 Revenue:nk]' />
+        </groupfilter>
+      </group>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='gray_warm_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Revenue:qk]&quot;</bucket>
+            </map>
+            <map to='#6c6260'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Revised Estimates2022-2023 Total:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Total:qk]&quot;</bucket>
+            </map>
+            <map to='#89807d'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[__tableau_internal_object_id__].[cnt:Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345:qk]&quot;</bucket>
+            </map>
+            <map to='#98908c'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl]&quot;</bucket>
+            </map>
+            <map to='#98908c'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Sl.No.:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Revised Estimates2022-2023 Revenue:qk]&quot;</bucket>
+            </map>
+            <map to='#c6beba'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Total:qk]&quot;</bucket>
+            </map>
+            <map to='#d1c8c4'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]&quot;</bucket>
+            </map>
+            <map to='#d1c8c4'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Revenue:qk]&quot;</bucket>
+            </map>
+            <map to='#dcd4d0'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Capital:qk]&quot;</bucket>
+            </map>
+            <map to='#dcd4d0'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Calculation_0857377550446592:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Capital:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Revised Estimates 2022-2023 Revenue:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_0857377553784833:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>-1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Budget Estimates 2022-2023 Revenue:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;0.25&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;1181.3&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;13&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;132.41&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;145920&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;195&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;24.51&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;263.77&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3304.03&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;4.75&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;43.2&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;435&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;604.48&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;61.5&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;96.68&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;10872.5&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;118.89&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;167.18&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;19.5&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;227.5&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;2402.99&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3.4&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;34&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;350&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;54.54&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;560.69&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;84&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;875&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;0.5&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10.41&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;128.03&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;184&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;20.93&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;243.72&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2800&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3.84&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;365&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;40&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;42000&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;59&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;600&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;89&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;1&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;105&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;140.24&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;1400&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;15&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;208&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;27.79&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;299.76&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;4000&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;45&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;473.92&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5.15&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;700&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;71&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;0.27&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;100&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;1288.79&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;13.43&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;133.83&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;200&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;24.96&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;268.76&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3631.64&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;43.88&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;447.7&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;64&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;650&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;0.01&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1050&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;128.25&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;185.85&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;22&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;250&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;2908.28&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;388.29&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;4&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;40.87&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;60&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;600.71&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;60561.2&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;94.56&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;115.5&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;157.53&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;17.26&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;1798.27&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;226&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;3&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;31.9&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;334&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;50&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;527.68&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;8&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;80&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;811&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9243.09&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;0.1&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;120&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;15000&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;175&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;19.13&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;235&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;2500&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3.5&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;35&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;360&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;55&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;568.03&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;86.1&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9.1&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;900&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;110.2&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;145.31&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;16.23&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;1700&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2.8&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;224.41&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;30.74&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;328&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;48.5&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;525&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7565.59&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;758.4&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;76.5&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;0.04&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1119.07&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12.5&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;130&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;189&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;23&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;252.85&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2962.62&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;4.5&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;400&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;41&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;60.22&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;604.03&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;63222.3&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;95&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;1.5&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;106.74&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;140.46&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;15.5&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;1500&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;210.58&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;28&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;300&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;45.9&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;484.35&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5.67&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5300&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;72.5&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;723&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;1.11&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;107.53&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;144.9&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;1560.01&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;16&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;212.19&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;29.5&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;314.36&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;48&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;499&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5673.13&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;6&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;74&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;748.99&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;112&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;150&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;17.8&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;1715.9&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;2.18&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;225&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;30.93&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;332.91&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;48.49&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;526.08&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7.85&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;77.18&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;800&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;8485&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;116&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;162.28&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;19&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2000&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;226.21&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;3.2&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;32&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;341&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;53&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;542.1&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8.62&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;812.52&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;82&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9259.91&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;0.75&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;101.51&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;13.57&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1300&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;137.5&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;200.01&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;25&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;283.5&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3843.73&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;44.24&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;450&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5.04&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;65&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;688.14&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;0.08&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1128&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12.6&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;131.92&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;191.54&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;23.5&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;260&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3004.52&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;4.49&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;41.65&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;412.79&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;60.72&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;604.42&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;68000&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;95.6&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;0.2&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;124.36&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;15500&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;180&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;20&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;239.25&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2515&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3.26&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;35.67&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;363.45&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;57.45&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;590.6&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;87.65&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;974&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;110&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;145&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;16.5&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;1629&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;221&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;30&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;315&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;48.3&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;500&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;6.76&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;6400&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;75&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;750&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;0.84&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;102.65&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;1315&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;14.06&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;140&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;205&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;27&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;284&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3965&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;44.25&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;460&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5.08&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;690&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;0.3&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10.9&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1000&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;125&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;182.82&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;19500&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;20.43&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;240.39&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2621.5&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3.54&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;364&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;39.32&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;58.7&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;598.17&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;88&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Ministry/Department:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;Capital Outlay on Defence Services&quot;</bucket>
+            </map>
+            <map to='#459f3b'>
+              <bucket>&quot;Department of Fertilisers&quot;</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;Ministry of Road Transport and Highways&quot;</bucket>
+            </map>
+            <map to='#9e3a26'>
+              <bucket>&quot;Police&quot;</bucket>
+            </map>
+            <map to='#a03b25'>
+              <bucket>&quot;Ministry of Youth Affairs and Sports&quot;</bucket>
+            </map>
+            <map to='#a33c25'>
+              <bucket>&quot;Ministry of Tribal Affairs&quot;</bucket>
+            </map>
+            <map to='#a63d24'>
+              <bucket>&quot;Ministry of Tourism&quot;</bucket>
+            </map>
+            <map to='#a93e24'>
+              <bucket>&quot;Ministry of Textiles&quot;</bucket>
+            </map>
+            <map to='#ab3f23'>
+              <bucket>&quot;Ministry of Steel&quot;</bucket>
+            </map>
+            <map to='#ae4123'>
+              <bucket>&quot;Ministry of Statistics and Programme Implementation&quot;</bucket>
+            </map>
+            <map to='#b14223'>
+              <bucket>&quot;Ministry of Skill Development and Entrepreneurship&quot;</bucket>
+            </map>
+            <map to='#ba4523'>
+              <bucket>&quot;Ministry of Power&quot;</bucket>
+            </map>
+            <map to='#bd4623'>
+              <bucket>&quot;Ministry of Ports, Shipping and Waterways&quot;</bucket>
+            </map>
+            <map to='#c04723'>
+              <bucket>&quot;Ministry of Planning&quot;</bucket>
+            </map>
+            <map to='#c34823'>
+              <bucket>&quot;Ministry of Petroleum and Natural Gas&quot;</bucket>
+            </map>
+            <map to='#c64922'>
+              <bucket>&quot;Ministry of Personnel, Public Grievances and Pensions&quot;</bucket>
+            </map>
+            <map to='#c84b22'>
+              <bucket>&quot;Ministry of Panchayati Raj&quot;</bucket>
+            </map>
+            <map to='#cb4c22'>
+              <bucket>&quot;Ministry of New and Renewable Energy&quot;</bucket>
+            </map>
+            <map to='#cd4e22'>
+              <bucket>&quot;Ministry of Minority Affairs&quot;</bucket>
+            </map>
+            <map to='#d04f22'>
+              <bucket>&quot;Ministry of Micro, Small and Medium Enterprises&quot;</bucket>
+            </map>
+            <map to='#d25022'>
+              <bucket>&quot;Ministry of Labour and Employment&quot;</bucket>
+            </map>
+            <map to='#d55222'>
+              <bucket>&quot;Ministry of Information and Broadcasting&quot;</bucket>
+            </map>
+            <map to='#d75421'>
+              <bucket>&quot;Ministry of Housing and Urban Affairs&quot;</bucket>
+            </map>
+            <map to='#d85621'>
+              <bucket>&quot;Ministry of Home Affairs&quot;</bucket>
+            </map>
+            <map to='#da5820'>
+              <bucket>&quot;Ministry of Heavy Industries&quot;</bucket>
+            </map>
+            <map to='#dc5a20'>
+              <bucket>&quot;Ministry of Food Processing Industries&quot;</bucket>
+            </map>
+            <map to='#de5d1f'>
+              <bucket>&quot;Ministry of External Affairs&quot;</bucket>
+            </map>
+            <map to='#df5f1f'>
+              <bucket>&quot;Ministry of Environment, Forests and Climate Change&quot;</bucket>
+            </map>
+            <map to='#e1611f'>
+              <bucket>&quot;Ministry of Electronics and Information Technology&quot;</bucket>
+            </map>
+            <map to='#e3631e'>
+              <bucket>&quot;Ministry of Earth Sciences&quot;</bucket>
+            </map>
+            <map to='#e5651d'>
+              <bucket>&quot;Ministry of Development of North Eastern Region&quot;</bucket>
+            </map>
+            <map to='#e7671d'>
+              <bucket>&quot;Ministry of Defence (Civil)&quot;</bucket>
+            </map>
+            <map to='#e9691c'>
+              <bucket>&quot;Ministry of Culture&quot;</bucket>
+            </map>
+            <map to='#eb6b1c'>
+              <bucket>&quot;Ministry of Corporate Affairs&quot;</bucket>
+            </map>
+            <map to='#ed6d1b'>
+              <bucket>&quot;Ministry of Cooperation&quot;</bucket>
+            </map>
+            <map to='#ef701b'>
+              <bucket>&quot;Department of Health and Family Welfare&quot;</bucket>
+            </map>
+            <map to='#ef701b'>
+              <bucket>&quot;Ministry of Coal&quot;</bucket>
+            </map>
+            <map to='#ef731d'>
+              <bucket>&quot;Ministry of Civil Aviation&quot;</bucket>
+            </map>
+            <map to='#f0761f'>
+              <bucket>&quot;Ministry of Ayush&quot;</bucket>
+            </map>
+            <map to='#f07921'>
+              <bucket>&quot;Law and Justice&quot;</bucket>
+            </map>
+            <map to='#f17c23'>
+              <bucket>&quot;Indirect Taxes&quot;</bucket>
+            </map>
+            <map to='#f17f26'>
+              <bucket>&quot;Department of Water Resources, River Development and Ganga Rejuvenation&quot;</bucket>
+            </map>
+            <map to='#f28228'>
+              <bucket>&quot;Department of Telecommunications&quot;</bucket>
+            </map>
+            <map to='#f3852a'>
+              <bucket>&quot;Department of Space&quot;</bucket>
+            </map>
+            <map to='#f3882d'>
+              <bucket>&quot;Department of Social Justice and Empowerment&quot;</bucket>
+            </map>
+            <map to='#f38b2f'>
+              <bucket>&quot;Department of Scientific and Industrial Research&quot;</bucket>
+            </map>
+            <map to='#f38d32'>
+              <bucket>&quot;Department of Science and Technology&quot;</bucket>
+            </map>
+            <map to='#f49034'>
+              <bucket>&quot;Department of School Education and Literacy&quot;</bucket>
+            </map>
+            <map to='#f49337'>
+              <bucket>&quot;Department of Rural Development&quot;</bucket>
+            </map>
+            <map to='#f49639'>
+              <bucket>&quot;Department of Public Enterprises&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Atomic Energy&quot;</bucket>
+            </map>
+            <map to='#f5993c'>
+              <bucket>&quot;Department of Posts&quot;</bucket>
+            </map>
+            <map to='#f59b3e'>
+              <bucket>&quot;Department of Pharmaceuticals&quot;</bucket>
+            </map>
+            <map to='#f5c861'>
+              <bucket>&quot;Department of Agricultural Research and Education&quot;</bucket>
+            </map>
+            <map to='#f5cb63'>
+              <bucket>&quot;Department for Promotion of Industry and Internal Trade&quot;</bucket>
+            </map>
+            <map to='#f69e41'>
+              <bucket>&quot;Department of Land Resources&quot;</bucket>
+            </map>
+            <map to='#f6a143'>
+              <bucket>&quot;Department of Higher Education&quot;</bucket>
+            </map>
+            <map to='#f6a346'>
+              <bucket>&quot;Department of Health Research&quot;</bucket>
+            </map>
+            <map to='#f6c35e'>
+              <bucket>&quot;Department of Animal Husbandry and Dairying&quot;</bucket>
+            </map>
+            <map to='#f6c560'>
+              <bucket>&quot;Department of Agriculture and Farmers Welfare&quot;</bucket>
+            </map>
+            <map to='#f7c05d'>
+              <bucket>&quot;Department of Biotechnology&quot;</bucket>
+            </map>
+            <map to='#f88113'>
+              <bucket>&quot;Department of Food and Public Distribution&quot;</bucket>
+            </map>
+            <map to='#f8ab4d'>
+              <bucket>&quot;Department of Financial Services&quot;</bucket>
+            </map>
+            <map to='#f8b152'>
+              <bucket>&quot;Department of Empowerment of Persons with Disabilities&quot;</bucket>
+            </map>
+            <map to='#f8b454'>
+              <bucket>&quot;Department of Economic Affairs&quot;</bucket>
+            </map>
+            <map to='#f8b756'>
+              <bucket>&quot;Department of Consumer Affairs&quot;</bucket>
+            </map>
+            <map to='#f8ba59'>
+              <bucket>&quot;Department of Commerce&quot;</bucket>
+            </map>
+            <map to='#f8bd5b'>
+              <bucket>&quot;Department of Chemicals and Petrochemicals&quot;</bucket>
+            </map>
+            <map to='#fe7caa'>
+              <bucket>&quot;Ministry of Railways&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Demand No. 6&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Demand No. 86&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Demand No. 85&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Demand No. 21&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Demand No. 15&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Indian Union Budget FY 21-22 ti' id='Indian Union Budget FY 21-22 ti_4F4A1A2188374320AFCCA0E75AA48345'>
+            <properties context=''>
+              <relation connection='excel-direct.0xg6smz0onlpox1ed0lnz0qpnmmn' name='Indian Union Budget FY 21-22 ti' table='[&apos;Indian Union Budget FY 21-22 ti$&apos;]' type='table'>
+                <columns gridOrigin='A1:P723:no:A1:P723:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Category' ordinal='0' />
+                  <column datatype='integer' name='Sl.No.' ordinal='1' />
+                  <column datatype='string' name='Ministry/Department' ordinal='2' />
+                  <column datatype='string' name='Scheme' ordinal='3' />
+                  <column datatype='real' name='Actuals 2021-2022 Revenue' ordinal='4' />
+                  <column datatype='real' name='Actuals 2021-2022 Capital' ordinal='5' />
+                  <column datatype='real' name='Actuals 2021-2022 Total' ordinal='6' />
+                  <column datatype='string' name='Budget Estimates 2022-2023 Revenue' ordinal='7' />
+                  <column datatype='real' name='Budget Estimates 2022-2023 Capital' ordinal='8' />
+                  <column datatype='real' name='Budget Estimates 2022-2023 Total' ordinal='9' />
+                  <column datatype='real' name='Revised Estimates2022-2023 Revenue' ordinal='10' />
+                  <column datatype='real' name='Revised Estimates 2022-2023 Revenue' ordinal='11' />
+                  <column datatype='real' name='Revised Estimates2022-2023 Total' ordinal='12' />
+                  <column datatype='real' name='Budget Estimates2023-2024 Revenue' ordinal='13' />
+                  <column datatype='real' name='Budget Estimates2023-2024 Capital' ordinal='14' />
+                  <column datatype='real' name='Budget Estimates2023-2024 Total' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='dataset2' inline='true' name='federated.1fvb46f1efw0ih1d5hxke0mdrevj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset2' name='textscan.1lple6c0simhwg19smbvh0hwufbs'>
+            <connection class='textscan' directory='D:/Tableau project' filename='dataset2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1lple6c0simhwg19smbvh0hwufbs' name='dataset2.csv' table='[dataset2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Department' ordinal='0' />
+            <column datatype='integer' name='Budget 2022?23' ordinal='1' />
+            <column datatype='integer' name='Budget 2023?24' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataset2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[dataset2.csv]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset2.csv_BF8E4EE4773A487F9391F3C31E7CBBDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget 2022?23</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Budget 2022?23]</local-name>
+            <parent-name>[dataset2.csv]</parent-name>
+            <remote-alias>Budget 2022?23</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset2.csv_BF8E4EE4773A487F9391F3C31E7CBBDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget 2023?24</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Budget 2023?24]</local-name>
+            <parent-name>[dataset2.csv]</parent-name>
+            <remote-alias>Budget 2023?24</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset2.csv_BF8E4EE4773A487F9391F3C31E7CBBDC]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='dataset2.csv' datatype='table' name='[__tableau_internal_object_id__].[dataset2.csv_BF8E4EE4773A487F9391F3C31E7CBBDC]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='dataset2.csv' id='dataset2.csv_BF8E4EE4773A487F9391F3C31E7CBBDC'>
+            <properties context=''>
+              <relation connection='textscan.1lple6c0simhwg19smbvh0hwufbs' name='dataset2.csv' table='[dataset2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Department' ordinal='0' />
+                  <column datatype='integer' name='Budget 2022?23' ordinal='1' />
+                  <column datatype='integer' name='Budget 2023?24' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='2022 – 2024 – Budget Estimation – Department Wise'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Actuals 2021-2022 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Budget Estimates 2022-2023 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Budget Estimates 2022-2023 Total]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='S_2023-2024' datatype='integer' name='[Calculation_0857377550446592]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2023-2024' />
+              <aliases>
+                <alias key='-1' value='4' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' caption='S_2022-2023' datatype='integer' name='[Calculation_1357380599246849]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[Calculation_0857377550446592]' />
+              <aliases>
+                <alias key='-1' value='food' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Ministry/Department]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0857377550446592]' derivation='None' name='[none:Calculation_0857377550446592:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1357380599246849]' derivation='None' name='[none:Calculation_1357380599246849:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Ministry/Department]' derivation='None' name='[none:Ministry/Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Budget Estimates 2022-2023 Capital]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Capital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Budget Estimates 2022-2023 Total]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:ok]'>
+            <groupfilter count='4' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Actuals 2021-2022 Capital])' function='order' user:ui-marker='order'>
+                <groupfilter function='member' level='[none:Calculation_0857377550446592:ok]' member='-1' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_1357380599246849:ok]'>
+            <groupfilter count='4' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([Ministry/Department])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Calculation_1357380599246849:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Capital Outlay on Defence Services&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Fertilisers&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Food and Public Distribution&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Ministry of Railways&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Ministry of Road Transport and Highways&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_1357380599246849:ok]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:ok]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0zplug2171mn6z1ahg55a0n5pivl].[Multiple Values]</rows>
+        <cols>([federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_1357380599246849:ok] / ([federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:ok] / [federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{D5D7A1BD-02A8-4313-886C-7581EB5D9604}' />
+    </worksheet>
+    <worksheet name='2022 – 2024 – Budget Estimation – Scheme Wise'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Budget Estimates 2022-2023 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Budget Estimates 2022-2023 Total]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='2022-2023' datatype='integer' name='[Calculation_0857377553784833]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2022-2023' />
+            </column>
+            <column aggregation='Sum' caption='2023-2024' datatype='integer' name='[Calculation_0857377554059266]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2023-2024' />
+              <aliases>
+                <alias key='-1' value='4' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Ministry/Department]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0857377553784833]' derivation='None' name='[none:Calculation_0857377553784833:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_0857377554059266]' derivation='None' name='[none:Calculation_0857377554059266:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Ministry/Department]' derivation='None' name='[none:Ministry/Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Budget Estimates 2022-2023 Capital]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Capital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Budget Estimates 2022-2023 Total]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]'>
+            <groupfilter function='member' level='[none:Calculation_0857377553784833:ok]' member='-1' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]'>
+            <groupfilter function='level-members' level='[none:Calculation_0857377554059266:ok]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Capital Outlay on Defence Services&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Fertilisers&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Food and Public Distribution&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Ministry of Railways&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Ministry of Road Transport and Highways&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+        </panes>
+        <rows>([federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk] + [federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk])</rows>
+        <cols>([federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok] / [federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok])</cols>
+      </table>
+      <simple-id uuid='{E4BB2F50-6999-472E-96C9-6B8F5CD54AD5}' />
+    </worksheet>
+    <worksheet name='Budget Estimation – Category Wise'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#020206c6' fontname='Tableau Semibold' fontsize='16'>Budget Estimation – Category Wise</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Budget Estimates 2022-2023 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Budget Estimates 2022-2023 Total]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Budget Estimates2023-2024 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Budget Estimates2023-2024 Revenue]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='2022-2023' datatype='integer' name='[Calculation_0857377553784833]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2022-2023' />
+            </column>
+            <column aggregation='Sum' caption='2023-2024' datatype='integer' name='[Calculation_0857377554059266]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2023-2024' />
+              <aliases>
+                <alias key='-1' value='4' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Ministry/Department]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0857377553784833]' derivation='None' name='[none:Calculation_0857377553784833:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_0857377554059266]' derivation='None' name='[none:Calculation_0857377554059266:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Ministry/Department]' derivation='None' name='[none:Ministry/Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Budget Estimates 2022-2023 Capital]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Capital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Budget Estimates 2022-2023 Total]' derivation='Sum' name='[sum:Budget Estimates 2022-2023 Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Budget Estimates2023-2024 Capital]' derivation='Sum' name='[sum:Budget Estimates2023-2024 Capital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Budget Estimates2023-2024 Revenue]' derivation='Sum' name='[sum:Budget Estimates2023-2024 Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]'>
+            <groupfilter function='member' level='[none:Calculation_0857377553784833:ok]' member='-1' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]'>
+            <groupfilter function='member' level='[none:Calculation_0857377554059266:ok]' member='-1' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Capital Outlay on Defence Services&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department for Promotion of Industry and Internal Trade&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Agricultural Research and Education&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Agriculture and Farmers Welfare&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]</column>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Revenue:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Capital:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Capital:qk] + ([federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Revenue:qk] + ([federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates2023-2024 Capital:qk] + [federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Budget Estimates 2022-2023 Total:qk])))</rows>
+        <cols>([federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok] / [federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok])</cols>
+      </table>
+      <simple-id uuid='{C6ECD8A0-CFE2-4A20-B790-52F353A44365}' />
+    </worksheet>
+    <worksheet name='Category Wise'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#72b966' fontname='Tableau Semibold' fontsize='16'>Category Wise</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Actuals 2021-2022 Total]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Actuals 2021-2022 Total]' derivation='Sum' name='[sum:Actuals 2021-2022 Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;Demand No. 15&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;Demand No. 21&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;Demand No. 6&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;Demand No. 85&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;Demand No. 86&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e9f3f2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]' />
+              <lod column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Total:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='diamond' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Total:qk]</rows>
+        <cols>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{67F0E5EA-ECCB-4D76-95A4-0891E02E0B74}' />
+    </worksheet>
+    <worksheet name='Department/Ministry Wise for 2021-2022'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#72b966' fontname='Tableau Semibold' fontsize='16'>Top 5 Department/Ministry Wise for 2021-2022</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Actuals 2021-2022 Total]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Ministry/Department]' role='dimension' type='nominal' />
+            <column-instance column='[Ministry/Department]' derivation='None' name='[none:Ministry/Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Actuals 2021-2022 Total]' derivation='Sum' name='[sum:Actuals 2021-2022 Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Capital Outlay on Defence Services&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Fertilisers&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Department of Food and Public Distribution&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Ministry of Railways&quot;' />
+              <groupfilter function='member' level='[none:Ministry/Department:nk]' member='&quot;Ministry of Road Transport and Highways&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f3faf9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]' />
+              <size column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Total:qk]' />
+              <text column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]' />
+              <text column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Total:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1021EC3F-BD32-488A-8DAA-523B56FCC441}' />
+    </worksheet>
+    <worksheet name='Total Amount Invested'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#020206c6' fontname='Tableau Semibold' fontsize='16'>Total Amount Invested</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Actuals 2021-2022 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Actuals 2021-2022 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Actuals 2021-2022 Total]' role='measure' type='quantitative' />
+            <column-instance column='[Actuals 2021-2022 Capital]' derivation='Sum' name='[sum:Actuals 2021-2022 Capital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Actuals 2021-2022 Revenue]' derivation='Sum' name='[sum:Actuals 2021-2022 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Actuals 2021-2022 Total]' derivation='Sum' name='[sum:Actuals 2021-2022 Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Capital:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Total:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#75a1c7' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0zplug2171mn6z1ahg55a0n5pivl].[Multiple Values]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f3faf9' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#4e79a7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{58D7CEF1-C1A3-47FF-B469-7D62979DD4FE}' />
+    </worksheet>
+    <worksheet name='top 5 Schemes 2021-2022'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#020206c6' fontname='Tableau Semibold' fontsize='16'>Top 5 Schemes 2021-2022</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian Union Budget FY 21-22 ti (source file)' name='federated.0zplug2171mn6z1ahg55a0n5pivl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zplug2171mn6z1ahg55a0n5pivl'>
+            <column datatype='real' name='[Actuals 2021-2022 Capital]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Actuals 2021-2022 Revenue]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Budget Estimates 2022-2023 Revenue]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='S_2023-2024' datatype='integer' name='[Calculation_0857377550446592]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2023-2024' />
+              <aliases>
+                <alias key='-1' value='4' />
+              </aliases>
+            </column>
+            <column-instance column='[Budget Estimates 2022-2023 Revenue]' derivation='None' name='[none:Budget Estimates 2022-2023 Revenue:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0857377550446592]' derivation='None' name='[none:Calculation_0857377550446592:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Actuals 2021-2022 Capital]' derivation='Sum' name='[sum:Actuals 2021-2022 Capital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Actuals 2021-2022 Revenue]' derivation='Sum' name='[sum:Actuals 2021-2022 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0857377550446592]' derivation='Sum' name='[sum:Calculation_0857377550446592:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:qk]' included-values='in-range'>
+            <min>-1</min>
+            <max>-1</max>
+          </filter>
+          <slices>
+            <column>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Revenue:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Capital:qk]' />
+              <color column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Revenue:qk]' />
+              <text column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Budget Estimates 2022-2023 Revenue:nk]' />
+              <text column='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Calculation_0857377550446592:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3F83844C-7F57-401F-9EBB-C3DBA5E72A93}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='top 5 Schemes 2021-2022'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Actuals 2021-2022 Revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Budget Estimates 2022-2023 Revenue:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Budget Estimates2023-2024 Total:qk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:qk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Scheme:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Calculation_0857377550446592:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6B003751-C500-4DF6-B512-ABA033B4249E}' />
+    </window>
+    <window class='worksheet' name='Budget Estimation – Category Wise'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{372C2650-03B0-4892-A7C8-AC26DC8F3AFB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='2022 – 2024 – Budget Estimation – Scheme Wise'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</field>
+            <field>[federated.1fvb46f1efw0ih1d5hxke0mdrevj].[none:Department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{95289888-F8E5-48FE-A5CF-D9FC9E74D4CF}' />
+    </window>
+    <window class='worksheet' name='2022 – 2024 – Budget Estimation – Department Wise'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Budget Estimates 2022-2023 Revenue:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377550446592:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377553784833:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_0857377554059266:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Calculation_1357380599246849:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Scheme:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Calculation_0857377550446592:ok]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[sum:Calculation_1357380599246849:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3DE35BD2-F306-4BD5-BBF8-29361C200C9C}' />
+    </window>
+    <window class='worksheet' name='Department/Ministry Wise for 2021-2022'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Budget Estimates 2022-2023 Revenue:nk]</field>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Ministry/Department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C2042391-3728-4461-8F6F-947BA5D59122}' />
+    </window>
+    <window class='worksheet' name='Total Amount Invested'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4027B6A4-1D3C-49AA-9719-30EC90720EDE}' />
+    </window>
+    <window class='worksheet' name='Category Wise'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0zplug2171mn6z1ahg55a0n5pivl].[Category Set]' type='setMembership' />
+            <card pane-specification-id='0' param='[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zplug2171mn6z1ahg55a0n5pivl].[none:Category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6CA2BAA8-414E-4E1F-A157-FA5576B4F7EA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='2022 – 2024 – Budget Estimation – Department Wise' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='2022 – 2024 – Budget Estimation – Scheme Wise' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Budget Estimation – Category Wise' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Category Wise' width='192'>
+      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
+      ovbwa2gAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Department/Ministry Wise for 2021-2022' width='192'>
+      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
+      ZMztBtPPBMUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Total Amount Invested' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAF9ElEQVR4nO3ZXW8cZx2G8Xt2x+us443fmtR2TItLCgiBOOScT5Zv1XPUClWoLVEEbpy4
+      SRzHa3vfX2Zmd+fl4QAIIIo4aKVRfF+/sxntav/zaK59NJoohBAEmIolKc1zBdEB/MSSFLj9
+      YapR9wBAnQgA1ggA1ggA1ggA1gjgBxoMZ0rz6t1xWVX6/lcrpXqj7F+HIWgwnOlylKosCr24
+      GKkMQde9sXrTpUIImswX7z47mSR6009UVZVevBmqqIIGw6m6o0xFnr87pxA0Gs/U/fff+oeq
+      LDWYZirL6j/O90bJj7EU76Xm48ePH+dVWfcc76dQ6YuvzzRcNrXZLPTX87H+9PSVyril5SLX
+      PF2oXOV6+l1fna01/flkqDRNNC+knY2mXl8n+urbSyXTuaKG9LqfKS+kb551dS8O+sNJT7/6
+      eFeS9PpqotOzrq4Gc621m/r29USKIj057arTbilN5no5rLTdXOmPZ1Pt77TV7431spcqKnI9
+      Ox+otd7SYDzXZ188195OR68u+poX0umrGx0/3Kl5MevBDvADpLO5BsuG3l4P9eRsoN/87L72
+      tu/q+MNNnb4Z6ru3Q02TpfJFqtNuIoVK3f5cyaKQoqayJNEvPtnXsoh0/HBbq7zUbDzRr39+
+      qKOHH2i33dR8lujkYqJytdTe/n1FQXr0k12VeaHFPNGjn36oTivS5aTSb4+3NZ9lOjra08Hu
+      hubZUq9e9vS8O9GnH23pyfMbdccrHTy4p/udWFle6uRlr+5lrFVc9wDvs/Fspd//7pFuugO1
+      Yunr0xsd7t3Vi6uZ1qNS44WUZis1Wy1t3Wlp7V6lSrGyxUpVsdL5INNeFevjg019+ZcrfXq0
+      oy+fzdTYSHUR5UoWubIQ65cP2/rs80t1tqXjw3v6/Ks3+uhgRydn19rVmhbjpeK4ocF0qcPD
+      D3T65EJPF1uapSttb22oUZX65nlfnxztKsly5Wmh85u50lWlva22NuKo7qWsTRRCCEm+4k3w
+      LXbRHWv/YJt/u+/xLoAkSRSq6v9/A7hF2AFgjYdgWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCOAWyKEoKtRqioEvR0kmqYr9acLdYepQggKIeiin2iW5UqXhc57
+      c5VVpZtxpqoKdY9fm7juAfDjGCcrXQ5SNaJIkaQ7a01djTI1G5GKstJ8UWhjPVZ/kikvg/Z3
+      2irLoN50od3OuhqK6r6EWhDALRBC0DhZqQxBybJQ3Ih03k8UQlAURVrmlUKQpKAgaZmXmmW5
+      yipo8473LRCFEEKSr+S7Cd4eySJXez3W1TBVZ2NNy7xSXlSqQtCDrbb604U67TVF0d93jJ3N
+      dV2PMt29E+vBdrvu8WtBAAb+uRPgv/EQbICb/38jAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFj7G7cFLs8Jo6YKAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='top 5 Schemes 2021-2022' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAFrklEQVR4nO3aS08bVxyG8ddmCHc7gIBESVBUSqXuKmVfdd0P0E0/ZBdZdN2qaqWmJVzT
+      NJBwNcQGbGzjG7bndBGlJRUJCbZK3Pf57WyN/j6W5tEcHTsRQggCTCWvewHAdSIAWIvOvyg2
+      aso3qte1FuBS9bOkcpV61+a9EUC+UdWz4mHXhgPdli8n9fig0LV5bIFg7cIA2u226rWammdN
+      xe1Y5ZOi2u32f7024K1CCDrZzyiOO7svLwygeJzXjw+/1876hsrFoh7/9LMyL7Y6+iCgm462
+      nqvZqCuzutzRnAsDCCFo5u4dZTa31KjVdPwyp/Xl1Y4+COims2pVk7P3JSU6mnNhAFEU6c4n
+      99U8ayqX2dfX336je/NzbIPw0Ribmtb2wiMNjIx0NCdx/pfgzdIxp0D4qJ0/BQpxrESys3Mc
+      ToHQszq9+aV3BBBC0J+LK8q82FKtUtHyL7+qVuFHMnw8Qgg62t5Uo1pRvVzSztKC6qdl7a0u
+      6eQg814z3hpAqXCiqD9SZmtbT357rMlb04pu9Hdt8UDHQtDp0aEa5bIya8tKTc0oGhjQ+J27
+      OsnsvdeIi49B8wXVq1XVqzUdHWTVqNeVSCa1sbLW1fUDV3WaP1alcKyxqWkpIbXOzhS32zre
+      2lTjtKKgoPf5o3N00ZvpiXGlbqZVODzS5w++0Fg6rczmlmbn57r+RYCrGJ2YVNxqKfd8Xf0D
+      g5r59DOVclmlpm+pfJTTcHpcicTlR6ScAqGn8F8goIsIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANai614A8CHmJkaVGuzr2jwCQE9pq6mm
+      Gl2bxxYI1ggAPat6eipJKp8UVcoX1G61dLC9o1azqcP9A+WzObWaTR1s7yiO41fXFk6Uz+YU
+      QpBEAOhRp8WSfvjuoUIc69nistaXVvR0YVHNxpk2VlbVf+OG1peWlc/mFLfaerH2h0II2lhd
+      U1//Pzt/AkBPGk2ndPv+rNrttkbTKY2N31Rf1KeXO7saHBpWiGPNzM5qJDWmg50d3ZufkySl
+      Jyb09PdFtc6akggAPaqULyi7l1F2d0+VUkmlQkF9fZGGR0cUx7EO9w80Oz+nJ48WNDQ8rGqp
+      rHw2p2ajoWQyKSVezUmE15shSZulYz0rHl7XdwIuleofUrZaeeO917dwIpFQHMevbvC3OH+t
+      xDEo/gde38yS3nnz//taiS0QelgIQbvrz/8+DboKAkDPCiEon82qUipdeQZbIPSkwuGhQhw0
+      eftWR3N4AqAnjU9NKT05oezunrK7GZ07y/kgPAHQs/qiSA+++rKjGTwBYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYC06/2Io6tfkwPB1rQW41HA0qDh0b95f
+      sdS7LBh/J/UAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

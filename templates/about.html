@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Union Budget - India</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">UNION BUDGET - INDIA</div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+       <a href="/dashboard1">Dashboard-01</a>
+         <a href="/dashboard2">Dashboard-02</a>
+        <a href="/story">Story</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>About the Project</h1>
+
+        <p>
+            The Union Budget is a powerful reflection of India’s economic vision and development
+            priorities. This project analyzes the evolution of Union Budget allocations from
+            FY 2021–22 to FY 2023–24.
+        </p>
+
+        <p>
+            By examining sector-wise investments, we aim to understand how government spending
+            supports sustainable growth, social welfare, and long-term national development.
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/budget.png') }}" alt="About Illustration">
+    </div>
+</section>
+
+</body>
+</html>

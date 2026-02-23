@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Union Budget - India</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">UNION BUDGET - INDIA</div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/dashboard1">Dashboard-01</a>
+         <a href="/dashboard2">Dashboard-02</a>
+        <a href="/story">Story</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>
+            India-Evolution of Union<br>
+            Budget Allocations for<br>
+            Sustainable Growth
+        </h1>
+
+        <p>Indian Union Budget FY 21-22 till 23-24</p>
+
+        <a href="/dashboard1" class="btn">Get Started</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/budget.jpg') }}" alt="Union Budget Illustration">
+    </div>
+</section>
+
+</body>
+</html>
